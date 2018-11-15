@@ -1,0 +1,36 @@
+body {
+    background: #ff416c;
+    background: -webkit-linear-gradient(to right, #ff416c, #ff4b2b);
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+#features {
+    border: 1px solid #00c853;
+    padding: 20px;
+    margin: 30px;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+}
+
+#logo_link, #logo_name {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: square;
+}
+
+header {
+    text-align: center;
+}
+
+section#details {
+    width: 60%;
+}
+
+section#screens {
+    width: 40%;
+}
