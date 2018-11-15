@@ -10,22 +10,28 @@ Landing page for PRATITI android application-->
       <meta name="author" content="Niyas N S"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="stylesheet" href="css/default.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">   
+      <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
     </head>
     <body>
-      <header>
-        <a href="index.html" id="logo_link">
-                <img id="logo" src="assets/img/logo_launch.png" alt="logo of pratiti"/>
-        </a>
-        <h1 id="logo_name">PRATITI</h1>
-        <br>
-        <b style="font-size:25px;">An academic assistant for medical students</b>
-      </header>
-      <section>
+      <div id="header_container">
+          <header>
+              <div class="logo_box">
+                <a href="index.html" id="logo_link">
+                  <img id="logo" src="assets/img/logo_launch.png" alt="logo of pratiti"/>
+                </a>
+                <p id="logo_name">PRATITI</p>
+              </div>
+              <p id="subtitle">An academic assistant for medical students</p>
+          </header>
+      </div>
+      <section id="body_container">
         <section id="details">
           <div id="features">
             <b style="font-size:20px;">Features</b>
             <ul title="features of pratiti android application" 
-            style="font-family: Arial, Helvetica, sans-serif;">
+            style="font-family: Arial, Helvetica, sans-serif;"
+            class="big">
               <li>Simple and easy interface</li>
               <li>Year-wise and subject-wise division of all topics</li>
               <li>Concise and Easy-to-revise modules</li>
@@ -46,12 +52,12 @@ Landing page for PRATITI android application-->
         </section>
       </section>
       <footer>
-        <b>Contact us</b>
+        <!-- <b>Contact us</b>
         <address>
           <abbr title="Students Federation of India">SFI</abbr>&nbsp;Medical College Unit<br>
           Thiruvananthapuram<br>
           Kerala
-        </address>
+        </address> -->
       </footer>
     </body>
 </html>
