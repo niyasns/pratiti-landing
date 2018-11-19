@@ -26,13 +26,13 @@ header {
 }
 
 #logo {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
 }
 
 #logo_name {
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     letter-spacing: 5px;
@@ -45,33 +45,66 @@ header {
 }
 
 #subtitle {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 12px;
     margin: 0;
     padding: 5px;
     font-family: 'Roboto', sans-serif;
 }
 
 #body_container {
-    margin: 20px;
+    margin: 5px 30px 5px 30px ;
+}
+
+p#body_title {
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 70px;
+    margin: 10px 0px;
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
-    list-style-type: square;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 12px;
+    vertical-align: middle;
+    background: url(../assets/svg/bullet_icon.svg) no-repeat 0 0;
+    padding-left: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+li div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #features {
-    padding: 20px;
-    margin: 30px;
+    padding: 5px;
+    margin: 0px 80px 10px;
 }
 
-section#details {
+div#details {
     width: 60%;
+    float: left;
     font-family: 'Roboto', sans-serif;
 }
 
-section#screens {
+div#download_section {
+    display: block;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+div#screens {
     width: 40%;
+    display: inline-block;
+    text-align: center;
 }
 p.small {
     line-height: 0.8;
